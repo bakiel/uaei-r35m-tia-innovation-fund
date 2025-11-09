@@ -435,254 +435,46 @@
             </div>
         </div>
 
-        <!-- Slide 8C: STRATEGIC HQ LOCATION - ANIMATED SHOWCASE -->
-        <div class="slide" style="background-image: linear-gradient(rgba(0, 0, 0, 0.85), rgba(0, 0, 0, 0.85)), url('images/tech-smartphone.jpg'); background-size: cover; background-position: center;">
+        <!-- Slide 8C: Strategic HQ Location -->
+        <div class="slide">
 
-            <style>
-                /* Pulsing Animation */
-                @keyframes pulse {
-                    0%, 100% { transform: scale(1); opacity: 1; }
-                    50% { transform: scale(1.3); opacity: 0.7; }
-                }
+            <h2>Strategic HQ Location: Bela-Bela, Limpopo</h2>
 
-                /* Ripple Effect */
-                @keyframes ripple {
-                    0% { transform: scale(0.8); opacity: 0.8; }
-                    100% { transform: scale(2.5); opacity: 0; }
-                }
-
-                /* Fade in from bottom */
-                @keyframes fadeInUp {
-                    from { opacity: 0; transform: translateY(30px); }
-                    to { opacity: 1; transform: translateY(0); }
-                }
-
-                /* Slide in from left */
-                @keyframes slideInLeft {
-                    from { opacity: 0; transform: translateX(-50px); }
-                    to { opacity: 1; transform: translateX(0); }
-                }
-
-                /* Slide in from right */
-                @keyframes slideInRight {
-                    from { opacity: 0; transform: translateX(50px); }
-                    to { opacity: 1; transform: translateX(0); }
-                }
-
-                /* Number counter animation */
-                @keyframes countUp {
-                    from { opacity: 0; transform: scale(0.5); }
-                    to { opacity: 1; transform: scale(1); }
-                }
-
-                .location-marker {
-                    animation: pulse 2s ease-in-out infinite;
-                }
-
-                .ripple-circle {
-                    animation: ripple 3s ease-out infinite;
-                }
-
-                .stat-item {
-                    animation: fadeInUp 0.6s ease-out forwards;
-                    opacity: 0;
-                }
-
-                .stat-item:nth-child(1) { animation-delay: 0.2s; }
-                .stat-item:nth-child(2) { animation-delay: 0.4s; }
-                .stat-item:nth-child(3) { animation-delay: 0.6s; }
-                .stat-item:nth-child(4) { animation-delay: 0.8s; }
-
-                .cost-comparison {
-                    animation: slideInLeft 0.8s ease-out forwards;
-                    opacity: 0;
-                    animation-delay: 1s;
-                }
-
-                .advantage-box {
-                    animation: slideInRight 0.8s ease-out forwards;
-                    opacity: 0;
-                }
-
-                .advantage-box:nth-child(1) { animation-delay: 1.2s; }
-                .advantage-box:nth-child(2) { animation-delay: 1.4s; }
-                .advantage-box:nth-child(3) { animation-delay: 1.6s; }
-            </style>
-
-            <h2 style="text-align: center; margin-bottom: 1vh; animation: fadeInUp 0.6s ease-out;">Strategic HQ Location: Bela-Bela, Limpopo</h2>
-            <p style="text-align: center; font-size: clamp(1rem, 1.8vw, 1.3rem); color: #4CAF50; margin-bottom: 4vh; font-weight: 700; animation: fadeInUp 0.6s ease-out 0.2s backwards;">
-                Calculated Positioning for Maximum Impact & Efficiency
-            </p>
-
-            <div style="max-width: 1200px; margin: 0 auto; display: grid; grid-template-columns: 1.2fr 1fr; gap: 4vw;">
-
-                <!-- LEFT: ANIMATED MAP VISUALIZATION -->
-                <div>
-                    <!-- Map Container -->
-                    <div style="position: relative; background: linear-gradient(135deg, rgba(76, 175, 80, 0.1), rgba(0,0,0,0.7)); border: 2px solid rgba(76, 175, 80, 0.4); border-radius: 15px; padding: 3vh 2vw; height: 450px; overflow: hidden;">
-
-                        <!-- Title -->
-                        <div style="text-align: center; margin-bottom: 2vh; position: relative; z-index: 10;">
-                            <h3 style="color: #4CAF50; font-size: clamp(1.1rem, 2vw, 1.5rem); font-weight: 700; margin-bottom: 0.5vh;">Deployment Topology</h3>
-                            <p style="color: #999; font-size: clamp(0.8rem, 1.4vw, 0.95rem);">R650,000 | Bela-Bela HQ + Decentralized Field Operations</p>
-                        </div>
-
-                        <!-- Stylized Map Representation -->
-                        <div style="position: relative; height: 320px; margin-top: 2vh;">
-
-                            <!-- Province Outline (Simplified Limpopo) -->
-                            <div style="position: absolute; top: 50%; left: 50%; transform: translate(-50%, -50%); width: 400px; height: 300px; border: 3px dashed rgba(76, 175, 80, 0.2); border-radius: 50% 40% 45% 50%; opacity: 0.4;"></div>
-
-                            <!-- Bela-Bela HQ (Center) -->
-                            <div style="position: absolute; top: 50%; left: 50%; transform: translate(-50%, -50%); text-align: center; z-index: 5;">
-                                <!-- Ripple Effects -->
-                                <div class="ripple-circle" style="position: absolute; top: 50%; left: 50%; transform: translate(-50%, -50%); width: 40px; height: 40px; border: 2px solid #4CAF50; border-radius: 50%; animation-delay: 0s;"></div>
-                                <div class="ripple-circle" style="position: absolute; top: 50%; left: 50%; transform: translate(-50%, -50%); width: 40px; height: 40px; border: 2px solid #4CAF50; border-radius: 50%; animation-delay: 1s;"></div>
-                                <div class="ripple-circle" style="position: absolute; top: 50%; left: 50%; transform: translate(-50%, -50%); width: 40px; height: 40px; border: 2px solid #4CAF50; border-radius: 50%; animation-delay: 2s;"></div>
-
-                                <!-- HQ Marker -->
-                                <div class="location-marker" style="width: 50px; height: 50px; background: linear-gradient(135deg, #4CAF50, #2E7D32); border-radius: 50%; display: flex; align-items: center; justify-content: center; box-shadow: 0 0 30px rgba(76, 175, 80, 0.8); border: 3px solid #fff; position: relative;">
-                                    <i class="fas fa-building" style="font-size: 1.5rem; color: #fff;"></i>
-                                </div>
-                                <div style="background: rgba(0,0,0,0.9); padding: 8px 15px; border-radius: 8px; margin-top: 10px; border: 1px solid #4CAF50;">
-                                    <div style="font-size: clamp(0.9rem, 1.6vw, 1.1rem); color: #4CAF50; font-weight: 900;">BELA-BELA HQ</div>
-                                    <div style="font-size: clamp(0.75rem, 1.3vw, 0.85rem); color: #ccc;">Operations Center</div>
-                                </div>
-                            </div>
-
-                            <!-- Modimolle Cluster (Top Left) -->
-                            <div style="position: absolute; top: 15%; left: 25%; text-align: center;">
-                                <div class="location-marker" style="width: 40px; height: 40px; background: linear-gradient(135deg, #FFA726, #FB8C00); border-radius: 50%; display: flex; align-items: center; justify-content: center; box-shadow: 0 0 20px rgba(255, 167, 38, 0.6); border: 2px solid #fff; animation-delay: 0.5s;">
-                                    <i class="fas fa-users" style="font-size: 1.2rem; color: #fff;"></i>
-                                </div>
-                                <!-- Connection Line -->
-                                <svg style="position: absolute; top: 40px; left: 20px; width: 120px; height: 120px; pointer-events: none; overflow: visible;">
-                                    <line x1="0" y1="0" x2="95" y2="95" stroke="#4CAF50" stroke-width="2" stroke-dasharray="5,5" opacity="0.5"/>
-                                </svg>
-                                <div style="background: rgba(0,0,0,0.8); padding: 6px 12px; border-radius: 6px; margin-top: 8px; border: 1px solid #FFA726;">
-                                    <div style="font-size: clamp(0.75rem, 1.3vw, 0.9rem); color: #FFA726; font-weight: 700;">Modimolle</div>
-                                    <div style="font-size: clamp(0.7rem, 1.2vw, 0.8rem); color: #ccc;">250 farmers | 30km</div>
-                                </div>
-                            </div>
-
-                            <!-- Polokwane Cluster (Top Right) -->
-                            <div style="position: absolute; top: 20%; right: 20%; text-align: center;">
-                                <div class="location-marker" style="width: 40px; height: 40px; background: linear-gradient(135deg, #FFA726, #FB8C00); border-radius: 50%; display: flex; align-items: center; justify-content: center; box-shadow: 0 0 20px rgba(255, 167, 38, 0.6); border: 2px solid #fff; animation-delay: 0.7s;">
-                                    <i class="fas fa-users" style="font-size: 1.2rem; color: #fff;"></i>
-                                </div>
-                                <!-- Connection Line -->
-                                <svg style="position: absolute; top: 40px; right: 20px; width: 100px; height: 100px; pointer-events: none; overflow: visible;">
-                                    <line x1="20" y1="0" x2="-55" y2="85" stroke="#4CAF50" stroke-width="2" stroke-dasharray="5,5" opacity="0.5"/>
-                                </svg>
-                                <div style="background: rgba(0,0,0,0.8); padding: 6px 12px; border-radius: 6px; margin-top: 8px; border: 1px solid #FFA726;">
-                                    <div style="font-size: clamp(0.75rem, 1.3vw, 0.9rem); color: #FFA726; font-weight: 700;">Polokwane</div>
-                                    <div style="font-size: clamp(0.7rem, 1.2vw, 0.8rem); color: #ccc;">250 farmers | 100km</div>
-                                </div>
-                            </div>
-
-                            <!-- Gauteng Reference (Bottom, greyed out) -->
-                            <div style="position: absolute; bottom: 10%; left: 50%; transform: translateX(-50%); text-align: center; opacity: 0.4;">
-                                <div style="width: 30px; height: 30px; background: #666; border-radius: 50%; display: flex; align-items: center; justify-content: center; margin: 0 auto;">
-                                    <i class="fas fa-city" style="font-size: 1rem; color: #999;"></i>
-                                </div>
-                                <div style="font-size: clamp(0.7rem, 1.2vw, 0.8rem); color: #666; margin-top: 5px;">Gauteng (4-6hr away)</div>
-                            </div>
-
-                        </div>
-
+            <div class="component-explanation">
+                <div class="component-left">
+                    <div class="component-stat">
+                        <div class="stat-value">R500k+</div>
+                        <div class="stat-label">Cost Savings vs Gauteng HQ</div>
                     </div>
-
-                    <!-- Proximity Stats (Below Map) -->
-                    <div style="display: grid; grid-template-columns: repeat(4, 1fr); gap: 1.5vw; margin-top: 2vh;">
-                        <div class="stat-item" style="text-align: center; background: rgba(76, 175, 80, 0.1); padding: 1.5vh 1vw; border-radius: 10px; border: 1px solid rgba(76, 175, 80, 0.3);">
-                            <div style="font-size: clamp(1.5rem, 3vw, 2rem); color: #4CAF50; font-weight: 900; line-height: 1;">30km</div>
-                            <div style="font-size: clamp(0.7rem, 1.2vw, 0.85rem); color: #ccc; margin-top: 0.5vh;">Modimolle</div>
-                        </div>
-                        <div class="stat-item" style="text-align: center; background: rgba(76, 175, 80, 0.1); padding: 1.5vh 1vw; border-radius: 10px; border: 1px solid rgba(76, 175, 80, 0.3);">
-                            <div style="font-size: clamp(1.5rem, 3vw, 2rem); color: #4CAF50; font-weight: 900; line-height: 1;">100km</div>
-                            <div style="font-size: clamp(0.7rem, 1.2vw, 0.85rem); color: #ccc; margin-top: 0.5vh;">Polokwane</div>
-                        </div>
-                        <div class="stat-item" style="text-align: center; background: rgba(76, 175, 80, 0.1); padding: 1.5vh 1vw; border-radius: 10px; border: 1px solid rgba(76, 175, 80, 0.3);">
-                            <div style="font-size: clamp(1.5rem, 3vw, 2rem); color: #4CAF50; font-weight: 900; line-height: 1;">&lt;2hr</div>
-                            <div style="font-size: clamp(0.7rem, 1.2vw, 0.85rem); color: #ccc; margin-top: 0.5vh;">Response Time</div>
-                        </div>
-                        <div class="stat-item" style="text-align: center; background: rgba(76, 175, 80, 0.1); padding: 1.5vh 1vw; border-radius: 10px; border: 1px solid rgba(76, 175, 80, 0.3);">
-                            <div style="font-size: clamp(1.5rem, 3vw, 2rem); color: #4CAF50; font-weight: 900; line-height: 1;">500</div>
-                            <div style="font-size: clamp(0.7rem, 1.2vw, 0.85rem); color: #ccc; margin-top: 0.5vh;">Target Farmers</div>
-                        </div>
-                    </div>
-
+                    <p class="component-desc">
+                        <strong>&lt;2hr Response Time | 500 Farmers</strong><br>
+                        Modimolle 30km | Polokwane 100km<br>
+                        Bela-Bela Operations Center
+                    </p>
                 </div>
+                <div class="component-right">
+                    <h3>Location Advantages:</h3>
+                    <ul class="is-list">
+                        <li><i class="fas fa-map-marked-alt"></i> <strong>Tactical Proximity:</strong> 2.5× faster deployment vs Johannesburg (4-6hr away)</li>
+                        <li><i class="fas fa-handshake"></i> <strong>Community Embedded:</strong> Sepedi speakers, cultural fluency, physical presence</li>
+                        <li><i class="fas fa-chart-line"></i> <strong>Cost Arbitrage:</strong> -R360k rent, -15-20% salaries, -40% fuel costs</li>
+                        <li><i class="fas fa-leaf"></i> <strong>Provincial Development:</strong> 24 jobs in Limpopo, R12.8M stays local</li>
+                    </ul>
 
-                <!-- RIGHT: STRATEGIC ADVANTAGES -->
-                <div style="display: flex; flex-direction: column; gap: 2vh;">
-
-                    <!-- Cost Comparison -->
-                    <div class="cost-comparison" style="background: linear-gradient(135deg, rgba(255, 87, 87, 0.15), rgba(0,0,0,0.7)); border: 2px solid #ff5757; border-radius: 12px; padding: 2.5vh 2vw;">
-                        <h3 style="color: #ff5757; font-size: clamp(1.1rem, 2vw, 1.4rem); margin-bottom: 1.5vh; font-weight: 700;">
-                            <i class="fas fa-chart-line"></i> Cost Arbitrage vs Gauteng HQ
-                        </h3>
-                        <div style="display: grid; gap: 1.5vh;">
-                            <div style="display: flex; justify-content: space-between; align-items: center; padding-bottom: 1vh; border-bottom: 1px solid rgba(255, 87, 87, 0.3);">
-                                <span style="font-size: clamp(0.85rem, 1.5vw, 1rem); color: #ccc;">Office Rent (18mo)</span>
-                                <span style="font-size: clamp(1.1rem, 2vw, 1.4rem); color: #4CAF50; font-weight: 900;">-R360k</span>
-                            </div>
-                            <div style="display: flex; justify-content: space-between; align-items: center; padding-bottom: 1vh; border-bottom: 1px solid rgba(255, 87, 87, 0.3);">
-                                <span style="font-size: clamp(0.85rem, 1.5vw, 1rem); color: #ccc;">Salary Differential</span>
-                                <span style="font-size: clamp(1.1rem, 2vw, 1.4rem); color: #4CAF50; font-weight: 900;">-15-20%</span>
-                            </div>
-                            <div style="display: flex; justify-content: space-between; align-items: center;">
-                                <span style="font-size: clamp(0.85rem, 1.5vw, 1rem); color: #ccc;">Fuel Costs</span>
-                                <span style="font-size: clamp(1.1rem, 2vw, 1.4rem); color: #4CAF50; font-weight: 900;">-40%</span>
-                            </div>
-                        </div>
-                        <div style="background: rgba(76, 175, 80, 0.15); padding: 1.5vh 1.5vw; border-radius: 8px; margin-top: 2vh; text-align: center;">
-                            <div style="font-size: clamp(0.8rem, 1.4vw, 0.95rem); color: #ccc; margin-bottom: 0.5vh;">Total Savings</div>
-                            <div style="font-size: clamp(1.8rem, 3.5vw, 2.5rem); color: #4CAF50; font-weight: 900;">R500k+</div>
-                        </div>
-                    </div>
-
-                    <!-- Advantage 1 -->
-                    <div class="advantage-box" style="background: rgba(76, 175, 80, 0.1); border: 2px solid rgba(76, 175, 80, 0.4); border-left: 4px solid #4CAF50; border-radius: 10px; padding: 2vh 2vw;">
-                        <div style="display: flex; align-items: center; gap: 1vw; margin-bottom: 1vh;">
-                            <div style="width: 45px; height: 45px; background: linear-gradient(135deg, #4CAF50, #2E7D32); border-radius: 50%; display: flex; align-items: center; justify-content: center; flex-shrink: 0;">
-                                <i class="fas fa-map-marked-alt" style="font-size: 1.3rem; color: #fff;"></i>
-                            </div>
-                            <h4 style="color: #4CAF50; font-size: clamp(1rem, 1.8vw, 1.2rem); font-weight: 700; margin: 0;">Tactical Proximity</h4>
-                        </div>
-                        <p style="font-size: clamp(0.8rem, 1.4vw, 0.95rem); color: #ccc; line-height: 1.5; margin: 0;">
-                            <2-hour response time to 100% of beneficiaries vs 4-6 hours from Johannesburg. Field officer deployment efficiency: <strong style="color: #4CAF50;">2.5× faster</strong>.
-                        </p>
-                    </div>
-
-                    <!-- Advantage 2 -->
-                    <div class="advantage-box" style="background: rgba(76, 175, 80, 0.1); border: 2px solid rgba(76, 175, 80, 0.4); border-left: 4px solid #4CAF50; border-radius: 10px; padding: 2vh 2vw;">
-                        <div style="display: flex; align-items: center; gap: 1vw; margin-bottom: 1vh;">
-                            <div style="width: 45px; height: 45px; background: linear-gradient(135deg, #4CAF50, #2E7D32); border-radius: 50%; display: flex; align-items: center; justify-content: center; flex-shrink: 0;">
-                                <i class="fas fa-handshake" style="font-size: 1.3rem; color: #fff;"></i>
-                            </div>
-                            <h4 style="color: #4CAF50; font-size: clamp(1rem, 1.8vw, 1.2rem); font-weight: 700; margin: 0;">Community Embeddedness</h4>
-                        </div>
-                        <p style="font-size: clamp(0.8rem, 1.4vw, 0.95rem); color: #ccc; line-height: 1.5; margin: 0;">
-                            Team lives in communities they serve. Cultural fluency, language alignment (Sepedi native speakers), trust-building through <strong style="color: #4CAF50;">physical presence</strong>.
-                        </p>
-                    </div>
-
-                    <!-- Advantage 3 -->
-                    <div class="advantage-box" style="background: rgba(76, 175, 80, 0.1); border: 2px solid rgba(76, 175, 80, 0.4); border-left: 4px solid #4CAF50; border-radius: 10px; padding: 2vh 2vw;">
-                        <div style="display: flex; align-items: center; gap: 1vw; margin-bottom: 1vh;">
-                            <div style="width: 45px; height: 45px; background: linear-gradient(135deg, #4CAF50, #2E7D32); border-radius: 50%; display: flex; align-items: center; justify-content: center; flex-shrink: 0;">
-                                <i class="fas fa-leaf" style="font-size: 1.3rem; color: #fff;"></i>
-                            </div>
-                            <h4 style="color: #4CAF50; font-size: clamp(1rem, 1.8vw, 1.2rem); font-weight: 700; margin: 0;">Provincial Development</h4>
-                        </div>
-                        <p style="font-size: clamp(0.8rem, 1.4vw, 0.95rem); color: #ccc; line-height: 1.5; margin: 0;">
-                            TIA mandate: shift economic activity to underserved provinces. Bela-Bela HQ creates <strong style="color: #4CAF50;">24 direct jobs in Limpopo</strong>, not Gauteng.
-                        </p>
-                    </div>
-
+                    <h3>Coverage Area:</h3>
+                    <ul class="is-list">
+                        <li><i class="fas fa-users"></i> Modimolle Cluster: 250 farmers (30km radius)</li>
+                        <li><i class="fas fa-users"></i> Polokwane Cluster: 250 farmers (100km radius)</li>
+                        <li><i class="fas fa-clock"></i> Field Response: 100% coverage under 2 hours</li>
+                    </ul>
                 </div>
+            </div>
 
+            <div class="analogy-box">
+                <i class="fas fa-building" style="font-size: clamp(2rem, 3vw, 2.5rem); color: #4CAF50; margin-bottom: 1vh;"></i>
+                <p style="font-size: clamp(1rem, 1.8vw, 1.3rem); line-height: 1.6; margin: 0;">
+                    <strong style="color: #4CAF50;">Calculated Positioning:</strong> R650k facility creates R500k+ savings vs Gauteng. Team lives where they work, speaks farmers' language, arrives in 2 hours not 6. <strong style="color: #4CAF50;">Geography = competitive advantage.</strong>
+                </p>
             </div>
 
         </div>
@@ -1507,232 +1299,92 @@
             </div>
         </div>
 
-        <!-- Slide 19B: IP VALUATION - R35M CREATES R40-50M IN ASSETS -->
+        <!-- Slide 19B: IP Valuation -->
         <div class="slide">
-            <h2 style="text-align: center; margin-bottom: 2vh;">Intellectual Property Asset Valuation</h2>
-            <p style="text-align: center; font-size: clamp(1.1rem, 2vw, 1.5rem); color: #4CAF50; margin-bottom: 4vh; font-weight: 700;">
-                R35M Investment → R40-50M IP Portfolio Created (18 Months)
+            <h2>Intellectual Property Asset Valuation</h2>
+            <p style="text-align: center; font-size: clamp(0.85rem, 1.5vw, 1.05rem); color: #999; margin-bottom: 2vh;">
+                R35M Investment → R40-50M IP Portfolio (14%-43% ROI)
             </p>
 
-            <div style="max-width: 1100px; margin: 0 auto;">
-
-                <!-- Value Creation Visualization -->
-                <div style="display: grid; grid-template-columns: 1fr 2fr; gap: 4vw; align-items: center; margin-bottom: 4vh;">
-                    <!-- Left: Investment -->
-                    <div style="text-align: center;">
-                        <div style="font-size: clamp(0.9rem, 1.6vw, 1.1rem); color: #999; margin-bottom: 1vh;">TIA INVESTMENT</div>
-                        <div style="background: linear-gradient(135deg, #FFA726, #FB8C00); padding: 3vh 2vw; border-radius: 15px; box-shadow: 0 10px 40px rgba(255, 167, 38, 0.3);">
-                            <div style="font-size: clamp(2.5rem, 5vw, 4rem); color: #000; font-weight: 900; line-height: 1;">R35M</div>
-                            <div style="font-size: clamp(0.85rem, 1.5vw, 1rem); color: #000; opacity: 0.8; margin-top: 0.5vh;">18-Month Deployment</div>
-                        </div>
+            <div class="component-explanation">
+                <div class="component-left">
+                    <div class="component-stat">
+                        <div class="stat-value">R40-50M</div>
+                        <div class="stat-label">IP Portfolio Value Created</div>
                     </div>
-
-                    <!-- Right: Value Created -->
-                    <div>
-                        <div style="font-size: clamp(0.9rem, 1.6vw, 1.1rem); color: #999; margin-bottom: 1vh; text-align: center;">VALUE CREATED</div>
-                        <div style="background: linear-gradient(135deg, #4CAF50, #2E7D32); padding: 3vh 3vw; border-radius: 15px; box-shadow: 0 10px 40px rgba(76, 175, 80, 0.4); position: relative; overflow: hidden;">
-                            <div style="position: absolute; top: -50px; right: -50px; font-size: 15rem; opacity: 0.05; color: #fff;">📈</div>
-                            <div style="text-align: center; position: relative;">
-                                <div style="font-size: clamp(3rem, 6vw, 5rem); color: #fff; font-weight: 900; line-height: 1;">R40-50M</div>
-                                <div style="font-size: clamp(1rem, 1.8vw, 1.3rem); color: #fff; margin-top: 1vh; font-weight: 600;">IP Portfolio Valuation</div>
-                                <div style="font-size: clamp(0.85rem, 1.5vw, 1rem); color: rgba(255,255,255,0.8); margin-top: 0.5vh;">14%-43% ROI in 18 months</div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-
-                <!-- IP Breakdown -->
-                <div style="display: grid; gap: 2.5vh;">
-
-                    <!-- Platform Infrastructure -->
-                    <div style="background: rgba(76, 175, 80, 0.1); border: 2px solid rgba(76, 175, 80, 0.5); border-radius: 12px; padding: 2vh 2.5vw;">
-                        <div style="display: flex; justify-content: space-between; align-items: center; margin-bottom: 1vh;">
-                            <h3 style="color: #fff; font-size: clamp(1.1rem, 2vw, 1.4rem); margin: 0; font-weight: 700;">
-                                <i class="fas fa-layer-group" style="color: #4CAF50; margin-right: 10px;"></i>
-                                Platform Infrastructure
-                            </h3>
-                            <div style="font-size: clamp(1.3rem, 2.5vw, 1.8rem); color: #4CAF50; font-weight: 900;">R16-25M</div>
-                        </div>
-                        <div style="display: grid; grid-template-columns: repeat(3, 1fr); gap: 1.5vw; margin-top: 1.5vh;">
-                            <div style="font-size: clamp(0.8rem, 1.4vw, 0.95rem); color: #ccc;">
-                                <strong style="color: #4CAF50;">AgriFresh:</strong> R8-12M<br>
-                                <span style="font-size: 0.9em; opacity: 0.8;">Bilateral marketplace | Computer vision grading</span>
-                            </div>
-                            <div style="font-size: clamp(0.8rem, 1.4vw, 0.95rem); color: #ccc;">
-                                <strong style="color: #4CAF50;">AgriFinance:</strong> R5-8M<br>
-                                <span style="font-size: 0.9em; opacity: 0.8;">Credit scoring algorithm | 30-sec underwriting</span>
-                            </div>
-                            <div style="font-size: clamp(0.8rem, 1.4vw, 0.95rem); color: #ccc;">
-                                <strong style="color: #4CAF50;">AgriLearn:</strong> R3-5M<br>
-                                <span style="font-size: 0.9em; opacity: 0.8;">On-device LLM | 200+ training modules</span>
-                            </div>
-                        </div>
-                    </div>
-
-                    <!-- AI Model Portfolio -->
-                    <div style="background: rgba(76, 175, 80, 0.1); border: 2px solid rgba(76, 175, 80, 0.5); border-radius: 12px; padding: 2vh 2.5vw;">
-                        <div style="display: flex; justify-content: space-between; align-items: center; margin-bottom: 1vh;">
-                            <h3 style="color: #fff; font-size: clamp(1.1rem, 2vw, 1.4rem); margin: 0; font-weight: 700;">
-                                <i class="fas fa-brain" style="color: #4CAF50; margin-right: 10px;"></i>
-                                AI Model Portfolio
-                            </h3>
-                            <div style="font-size: clamp(1.3rem, 2.5vw, 1.8rem); color: #4CAF50; font-weight: 900;">R11.5M</div>
-                        </div>
-                        <div style="display: grid; grid-template-columns: repeat(3, 1fr); gap: 1.5vw; margin-top: 1.5vh;">
-                            <div style="font-size: clamp(0.8rem, 1.4vw, 0.95rem); color: #ccc;">
-                                <strong style="color: #4CAF50;">Quality Grading:</strong> R2M<br>
-                                <span style="font-size: 0.9em; opacity: 0.8;">ResNet-50 | 94% accuracy</span>
-                            </div>
-                            <div style="font-size: clamp(0.8rem, 1.4vw, 0.95rem); color: #ccc;">
-                                <strong style="color: #4CAF50;">Yield Prediction:</strong> R3M<br>
-                                <span style="font-size: 0.9em; opacity: 0.8;">Ensemble models | 87% accuracy</span>
-                            </div>
-                            <div style="font-size: clamp(0.8rem, 1.4vw, 0.95rem); color: #ccc;">
-                                <strong style="color: #4CAF50;">Credit Scoring:</strong> R4M<br>
-                                <span style="font-size: 0.9em; opacity: 0.8;">Alternative data | First SA smallholder bureau</span>
-                            </div>
-                        </div>
-                    </div>
-
-                    <!-- Data Repository -->
-                    <div style="background: rgba(76, 175, 80, 0.1); border: 2px solid rgba(76, 175, 80, 0.5); border-radius: 12px; padding: 2vh 2.5vw;">
-                        <div style="display: flex; justify-content: space-between; align-items: center; margin-bottom: 1vh;">
-                            <h3 style="color: #fff; font-size: clamp(1.1rem, 2vw, 1.4rem); margin: 0; font-weight: 700;">
-                                <i class="fas fa-database" style="color: #4CAF50; margin-right: 10px;"></i>
-                                Data Repository Asset
-                            </h3>
-                            <div style="font-size: clamp(1.3rem, 2.5vw, 1.8rem); color: #4CAF50; font-weight: 900;">R8.3M</div>
-                        </div>
-                        <div style="display: grid; grid-template-columns: repeat(3, 1fr); gap: 1.5vw; margin-top: 1.5vh;">
-                            <div style="font-size: clamp(0.8rem, 1.4vw, 0.95rem); color: #ccc;">
-                                <strong style="color: #4CAF50;">Farmer Profiles:</strong> R2M<br>
-                                <span style="font-size: 0.9em; opacity: 0.8;">9,000 data points (500 farmers × 18mo)</span>
-                            </div>
-                            <div style="font-size: clamp(0.8rem, 1.4vw, 0.95rem); color: #ccc;">
-                                <strong style="color: #4CAF50;">Crop Yield Curves:</strong> R3M<br>
-                                <span style="font-size: 0.9em; opacity: 0.8;">100 models | Licensing to agchem companies</span>
-                            </div>
-                            <div style="font-size: clamp(0.8rem, 1.4vw, 0.95rem); color: #ccc;">
-                                <strong style="color: #4CAF50;">IoT Sensor Data:</strong> R1.5M<br>
-                                <span style="font-size: 0.9em; opacity: 0.8;">648,000 readings (50 sensors × 18mo)</span>
-                            </div>
-                        </div>
-                    </div>
-
-                </div>
-
-                <!-- Licensing Revenue Potential -->
-                <div style="background: linear-gradient(135deg, rgba(76, 175, 80, 0.15), rgba(0,0,0,0.6)); border: 2px solid #4CAF50; border-radius: 12px; padding: 2.5vh 3vw; margin-top: 3vh; text-align: center;">
-                    <div style="font-size: clamp(1.1rem, 2vw, 1.5rem); color: #fff; font-weight: 700; margin-bottom: 1vh;">
-                        <i class="fas fa-coins" style="color: #4CAF50; margin-right: 10px;"></i>
-                        Licensing Revenue Potential
-                    </div>
-                    <div style="font-size: clamp(1.5rem, 3vw, 2.2rem); color: #4CAF50; font-weight: 900; margin-bottom: 1vh;">R2-R2.5M/Year</div>
-                    <div style="font-size: clamp(0.85rem, 1.5vw, 1rem); color: #ccc; line-height: 1.5;">
-                        Platform licensing (R600k-R1.2M) | AI model APIs (R400k) | Data licensing (R200k) | Carbon credits (R450k) | Advisory (R360k)
-                    </div>
-                </div>
-
-            </div>
-
-        </div>
-
-        <!-- Slide 19C: ROI ANALYSIS - INVESTMENT FUNNEL VISUALIZATION -->
-        <div class="slide">
-            <h2 style="text-align: center; margin-bottom: 2vh;">Return on Investment Analysis</h2>
-            <p style="text-align: center; font-size: clamp(1rem, 1.8vw, 1.3rem); color: #4CAF50; margin-bottom: 4vh; font-weight: 700;">
-                The Investment Funnel: R35M → R200-300M (24-30 Months)
-            </p>
-
-            <div style="max-width: 1100px; margin: 0 auto;">
-
-                <!-- Investment Funnel Visual -->
-                <div style="display: flex; flex-direction: column; gap: 1.2vh; align-items: center;">
-
-                    <!-- Stage 1: TIA Investment -->
-                    <div style="width: 100%; max-width: 900px;">
-                        <div style="background: linear-gradient(135deg, #FFA726, #FB8C00); padding: 1.5vh 3vw; border-radius: 12px; box-shadow: 0 8px 30px rgba(255, 167, 38, 0.3); position: relative;">
-                            <div style="position: absolute; top: -12px; left: 25px; background: #000; color: #FFA726; padding: 4px 15px; border-radius: 15px; font-weight: 900; font-size: clamp(0.7rem, 1.3vw, 0.9rem);">
-                                STAGE 1
-                            </div>
-                            <div style="display: grid; grid-template-columns: 1fr 2fr; gap: 2.5vw; align-items: center; margin-top: 0.8vh;">
-                                <div style="text-align: center;">
-                                    <div style="font-size: clamp(2.2rem, 5vw, 4rem); color: #000; font-weight: 900; line-height: 1;">R35M</div>
-                                    <div style="font-size: clamp(0.75rem, 1.3vw, 0.9rem); color: #000; opacity: 0.8;">18-Month Deploy</div>
-                                </div>
-                                <div style="font-size: clamp(0.75rem, 1.3vw, 0.9rem); color: #000; line-height: 1.4;">
-                                    <strong>Month 18:</strong> 500 farmers | R2-R2.5M revenue | <strong>14-43% ROI</strong>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-
-                    <!-- Stage 2: IP Value -->
-                    <div style="width: 95%; max-width: 850px;">
-                        <div style="background: linear-gradient(135deg, rgba(76, 175, 80, 0.9), rgba(46, 125, 50, 0.9)); padding: 1.5vh 3vw; border-radius: 12px; box-shadow: 0 8px 30px rgba(76, 175, 80, 0.3); position: relative;">
-                            <div style="position: absolute; top: -12px; left: 25px; background: #000; color: #4CAF50; padding: 4px 15px; border-radius: 15px; font-weight: 900; font-size: clamp(0.7rem, 1.3vw, 0.9rem);">
-                                STAGE 2
-                            </div>
-                            <div style="display: grid; grid-template-columns: 1fr 2fr; gap: 2.5vw; align-items: center; margin-top: 0.8vh;">
-                                <div style="text-align: center;">
-                                    <div style="font-size: clamp(2rem, 4.5vw, 3.5rem); color: #fff; font-weight: 900; line-height: 1;">R40-50M</div>
-                                    <div style="font-size: clamp(0.75rem, 1.3vw, 0.9rem); color: #fff; opacity: 0.9;">IP Portfolio</div>
-                                </div>
-                                <div style="font-size: clamp(0.75rem, 1.3vw, 0.9rem); color: #fff; line-height: 1.4;">
-                                    R16-25M Platforms | R11.5M AI models | R8.3M Data | <strong>15.6× LTV:CAC</strong>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-
-                    <!-- Stage 3: Series A -->
-                    <div style="width: 90%; max-width: 800px;">
-                        <div style="background: linear-gradient(135deg, #4CAF50, #2E7D32); padding: 1.5vh 3vw; border-radius: 12px; box-shadow: 0 10px 35px rgba(76, 175, 80, 0.4); position: relative;">
-                            <div style="position: absolute; top: -12px; left: 25px; background: #000; color: #4CAF50; padding: 4px 15px; border-radius: 15px; font-weight: 900; font-size: clamp(0.7rem, 1.3vw, 0.9rem);">
-                                STAGE 3
-                            </div>
-                            <div style="display: grid; grid-template-columns: 1fr 2fr; gap: 2.5vw; align-items: center; margin-top: 0.8vh;">
-                                <div style="text-align: center;">
-                                    <div style="font-size: clamp(1.9rem, 4vw, 3.2rem); color: #fff; font-weight: 900; line-height: 1;">R200-300M</div>
-                                    <div style="font-size: clamp(0.75rem, 1.3vw, 0.9rem); color: #fff; opacity: 0.9;">Series A Valuation</div>
-                                </div>
-                                <div style="font-size: clamp(0.75rem, 1.3vw, 0.9rem); color: #fff; line-height: 1.4;">
-                                    <strong>Month 24-30:</strong> 500-1K farmers | 15.6× LTV:CAC | <strong>TIA repayment</strong>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-
-                </div>
-
-                <!-- Bottom ROI Summary -->
-                <div style="background: rgba(76, 175, 80, 0.08); border: 2px solid #4CAF50; border-radius: 10px; padding: 1.5vh 2.5vw; margin-top: 2vh;">
-                    <div style="display: grid; grid-template-columns: repeat(3, 1fr); gap: 3vw; text-align: center;">
-                        <div>
-                            <div style="font-size: clamp(2rem, 4vw, 3rem); color: #4CAF50; font-weight: 900; margin-bottom: 1vh;">14-43%</div>
-                            <div style="font-size: clamp(0.85rem, 1.5vw, 1rem); color: #ccc;">Immediate ROI<br>(IP appreciation in 18mo)</div>
-                        </div>
-                        <div style="border-left: 2px solid rgba(76, 175, 80, 0.3); border-right: 2px solid rgba(76, 175, 80, 0.3);">
-                            <div style="font-size: clamp(2rem, 4vw, 3rem); color: #4CAF50; font-weight: 900; margin-bottom: 1vh;">5.7-8.6×</div>
-                            <div style="font-size: clamp(0.85rem, 1.5vw, 1rem); color: #ccc;">Value Multiple<br>(R35M → R200-300M in 30mo)</div>
-                        </div>
-                        <div>
-                            <div style="font-size: clamp(2rem, 4vw, 3rem); color: #4CAF50; font-weight: 900; margin-bottom: 1vh;">85%</div>
-                            <div style="font-size: clamp(0.85rem, 1.5vw, 1rem); color: #ccc;">Probability of Valuable Outcome<br>(Success scenarios)</div>
-                        </div>
-                    </div>
-                </div>
-
-                <!-- Risk-Adjusted Statement -->
-                <div style="background: linear-gradient(135deg, rgba(76, 175, 80, 0.15), rgba(0,0,0,0.6)); border: 2px solid #4CAF50; border-radius: 12px; padding: 2.5vh 3vw; margin-top: 3vh; text-align: center;">
-                    <p style="font-size: clamp(1rem, 1.8vw, 1.3rem); line-height: 1.6; margin: 0; color: #ccc;">
-                        <strong style="color: #4CAF50; font-size: clamp(1.1rem, 2vw, 1.5rem);">Even in failure scenarios:</strong><br>
-                        TIA retains R15.047M in computational infrastructure (perpetual assets) + R11.5M AI models (licensing revenue) = <strong style="color: #4CAF50;">R26.5M minimum asset recovery</strong>. There is no scenario where this investment loses money.
+                    <p class="component-desc">
+                        <strong>14%-43% ROI in 18 Months</strong><br>
+                        Platform + AI Models + Data<br>
+                        R2-R2.5M/Year Licensing Revenue
                     </p>
                 </div>
+                <div class="component-right">
+                    <h3>IP Assets Created:</h3>
+                    <ul class="is-list">
+                        <li><i class="fas fa-layer-group"></i> <strong>Platform Infrastructure (R16-25M):</strong> AgriFresh marketplace, AgriFinance credit engine, AgriLearn LLM training</li>
+                        <li><i class="fas fa-brain"></i> <strong>AI Model Portfolio (R11.5M):</strong> Quality grading ResNet-50, Yield prediction ensembles, Credit scoring bureau</li>
+                        <li><i class="fas fa-database"></i> <strong>Data Repository (R8.3M):</strong> 500 farmer profiles, 100 crop yield curves, 648k IoT sensor readings</li>
+                    </ul>
 
+                    <h3>Revenue Streams:</h3>
+                    <ul class="is-list">
+                        <li><i class="fas fa-coins"></i> Platform Licensing: R600k-R1.2M/year</li>
+                        <li><i class="fas fa-coins"></i> AI Model APIs: R400k/year</li>
+                        <li><i class="fas fa-coins"></i> Data Licensing + Carbon Credits: R650k/year</li>
+                    </ul>
+                </div>
             </div>
 
+            <div class="analogy-box">
+                <i class="fas fa-chart-line" style="font-size: clamp(2rem, 3vw, 2.5rem); color: #4CAF50; margin-bottom: 1vh;"></i>
+                <p style="font-size: clamp(1rem, 1.8vw, 1.3rem); line-height: 1.6; margin: 0;">
+                    <strong style="color: #4CAF50;">Value Creation Multiplier:</strong> R35M investment creates R40-50M IP assets (1.14-1.43×). Even if operational model fails, Gauteng owns perpetual assets generating R2-R2.5M/year licensing revenue. <strong style="color: #4CAF50;">Every scenario creates value.</strong>
+                </p>
+            </div>
+        </div>
+
+        <!-- Slide 19C: ROI Analysis -->
+        <div class="slide">
+            <h2>Return on Investment Analysis</h2>
+            <p style="text-align: center; font-size: clamp(0.85rem, 1.5vw, 1.05rem); color: #999; margin-bottom: 2vh;">
+                Investment Funnel: R35M → R200-300M (5.7-8.6× Multiple)
+            </p>
+
+            <div class="component-explanation">
+                <div class="component-left">
+                    <div class="component-stat">
+                        <div class="stat-value">5.7-8.6×</div>
+                        <div class="stat-label">Value Multiple (30 Months)</div>
+                    </div>
+                    <p class="component-desc">
+                        <strong>3-Stage Value Creation</strong><br>
+                        R35M → R40-50M → R200-300M<br>
+                        85% Probability Valuable Outcome
+                    </p>
+                </div>
+                <div class="component-right">
+                    <h3>Investment Stages:</h3>
+                    <ul class="is-list">
+                        <li><i class="fas fa-rocket"></i> <strong>Stage 1 (Month 18):</strong> R35M deployed → 500 farmers active, R2-R2.5M revenue, 14-43% ROI</li>
+                        <li><i class="fas fa-chart-line"></i> <strong>Stage 2 (Month 18):</strong> R40-50M IP created → R16-25M platforms, R11.5M AI models, R8.3M data</li>
+                        <li><i class="fas fa-trophy"></i> <strong>Stage 3 (Month 24-30):</strong> R200-300M Series A → 500-1K farmers, 15.6× LTV:CAC, TIA repayment</li>
+                    </ul>
+
+                    <h3>Risk-Adjusted Returns:</h3>
+                    <ul class="is-list">
+                        <li><i class="fas fa-check"></i> 14-43% Immediate ROI (IP appreciation in 18 months)</li>
+                        <li><i class="fas fa-check"></i> 85% Probability of Valuable Outcome (full or partial validation)</li>
+                        <li><i class="fas fa-shield-alt"></i> R26.5M Minimum Asset Recovery (perpetual infrastructure + AI models)</li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="analogy-box">
+                <i class="fas fa-calculator" style="font-size: clamp(2rem, 3vw, 2.5rem); color: #4CAF50; margin-bottom: 1vh;"></i>
+                <p style="font-size: clamp(1rem, 1.8vw, 1.3rem); line-height: 1.6; margin: 0;">
+                    <strong style="color: #4CAF50;">Asymmetric Risk Profile:</strong> 85% probability of creating R40-300M value. Even worst-case failure retains R26.5M in perpetual assets (infrastructure + AI models). <strong style="color: #4CAF50;">No scenario loses money.</strong>
+                </p>
+            </div>
         </div>
 
         <!-- Slide 20: Budget Part 2 - Split Editorial -->
