@@ -52,6 +52,11 @@ function showSlide(n, direction = null) {
     setTimeout(() => {
         newSlide.classList.add('active');
         newSlide.classList.remove('slide-enter-left', 'slide-enter-right');
+
+        // Trigger animations from index.html
+        if (typeof window.triggerSlideAnimations === 'function') {
+            setTimeout(window.triggerSlideAnimations, 100);
+        }
     }, 10);
 
     updateSlide();

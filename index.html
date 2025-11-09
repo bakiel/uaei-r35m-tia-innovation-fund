@@ -2065,10 +2065,52 @@
             );
         }
 
+        // Reset animations when leaving a slide
+        function resetSlideAnimations(slide) {
+            if (!slide) return;
+
+            // Reset flip cards
+            const flipCards = slide.querySelectorAll('[data-flip-card]');
+            flipCards.forEach(card => {
+                card.classList.remove('animated');
+                card.style.opacity = '0';
+                card.style.transform = 'rotateY(-90deg)';
+            });
+
+            // Reset progress bars
+            const progressBars = slide.querySelectorAll('[data-progress]');
+            progressBars.forEach(bar => {
+                bar.classList.remove('animated');
+                bar.style.width = '0%';
+            });
+
+            // Reset number counters
+            const counters = slide.querySelectorAll('[data-animate-number]');
+            counters.forEach(counter => {
+                counter.classList.remove('animated');
+            });
+
+            // Reset cascade items
+            const cascadeItems = slide.querySelectorAll('[data-cascade]');
+            cascadeItems.forEach(item => {
+                item.classList.remove('animated');
+                item.style.opacity = '0';
+                item.style.transform = 'translateY(20px)';
+            });
+        }
+
         // Initialize all animations when slide becomes active
         function triggerSlideAnimations() {
             const activeSlide = document.querySelector('.slide.active');
             if (activeSlide) {
+                // Reset all slides first
+                document.querySelectorAll('.slide').forEach(slide => {
+                    if (slide !== activeSlide) {
+                        resetSlideAnimations(slide);
+                    }
+                });
+
+                // Then trigger animations for active slide
                 initCounters();
                 initProgressBars();
                 initSVGPaths();
@@ -2076,6 +2118,9 @@
                 initCascades();
             }
         }
+
+        // Expose to window so app.js can call it
+        window.triggerSlideAnimations = triggerSlideAnimations;
 
         // Listen for slide changes and page load
         window.addEventListener('load', triggerSlideAnimations);
