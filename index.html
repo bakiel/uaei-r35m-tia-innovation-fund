@@ -2180,6 +2180,13 @@
 
         // Helper: Check if element is in viewport
         function isElementInViewport(el) {
+            // Check if element is in active slide first
+            const activeSlide = document.querySelector('.slide.active');
+            if (activeSlide && activeSlide.contains(el)) {
+                return true;
+            }
+
+            // Otherwise check actual viewport position
             const rect = el.getBoundingClientRect();
             return (
                 rect.top >= 0 &&
